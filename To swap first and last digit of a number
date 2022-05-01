@@ -1,0 +1,10 @@
+num=int(input("enter the number:"))
+original=num
+while(num//10!=0):
+    num=num//10
+first=num
+last=original%10
+print("before swapping the first and last is",first,last)
+#to swap first and last digit
+first,last=last,first
+print("the first and last digit is:",first,last)
