@@ -1,0 +1,7 @@
+num=int(input("enter the number:"))
+prod=1
+while(num!=0):
+    rem=num%10
+    prod*=rem
+    num//=10
+print(prod)
