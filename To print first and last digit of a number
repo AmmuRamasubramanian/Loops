@@ -1,0 +1,7 @@
+num=int(input("enter the number:"))
+original=num
+while(num//10!=0):
+    num=num//10
+print("the first digit of a number is=",num)
+rem=original%10
+print("the last digit of a number is=",rem)
